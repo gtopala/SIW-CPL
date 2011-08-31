@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Siw - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Siw.res" /d "NDEBUG" "H:\VC_Data\MyProjects\Siw\Siw.rc"" 
+Creating temporary file "C:\DOCUME~1\JT\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SIW_EXPORTS" /Fp"Release/Siw.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"H:\VC_Data\MyProjects\Siw\Siw.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\JT\LOCALS~1\Temp\RSP12.tmp" 
+Creating temporary file "C:\DOCUME~1\JT\LOCALS~1\Temp\RSP13.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"Release/Siw.pdb" /machine:I386 /def:"SIW.def" /out:"Release/Siw.cpl" /implib:"Release/Siw.lib" 
+.\Release\Siw.obj
+.\Release\Siw.res
+]
+Creating command line "link.exe @C:\DOCUME~1\JT\LOCALS~1\Temp\RSP13.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Siw.cpp
+Linking...
+   Creating library Release/Siw.lib and object Release/Siw.exp
+
+
+
+<h3>Results</h3>
+Siw.cpl - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
